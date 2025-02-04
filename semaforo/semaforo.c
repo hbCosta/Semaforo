@@ -7,7 +7,7 @@
 #define led_amarelo 12
 #define led_verde 13
 
-bool led_on = false;
+
 int estado = 0;
 
 
