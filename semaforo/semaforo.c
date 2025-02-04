@@ -62,7 +62,6 @@ int main() {
 
     // Loop infinito que mantém o programa em execução.
     while (true) {
-        // Pausa de 10 segundos para reduzir o uso da CPU.
         sleep_ms(10000);
         printf("rotina de repetição\n");
     }
