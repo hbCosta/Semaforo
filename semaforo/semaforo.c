@@ -60,10 +60,8 @@ int main() {
     // Configura o temporizador para chamar a função de callback a cada 3 segundo.
     add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
 
-    // Loop infinito que mantém o programa em execução.
+
     while (true) {
-        sleep_ms(10000);
-        printf("rotina de repetição\n");
     }
     return 0;
 }
